@@ -1,0 +1,191 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* content */
+body {
+  font: 12px/18px arial, sans-serif;
+  background-color: beige;
+}
+.content {
+  margin: 15px auto;
+  width: 700px;
+  background-color: rgb(127, 158, 158);
+}
+.header {
+  padding: 20px;
+}
+.content .header h1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  font-variant: small-caps;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(7, 7, 10);
+  font-size: 15px;
+}
+.header a:hover {
+  background-color: aqua;
+}
+.content .gambar {
+  height: 250px;
+  background-image: url(dfg.jpg);
+  background-position: 0 0;
+  border-bottom: 3px solid red;
+  border-top: 3px solid yellow;
+}
+.main {
+  margin: 20px;
+}
+.main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.main .anu {
+  font-size: 10px;
+  margin-top: -1px;
+}
+.main p {
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  word-spacing: 5pxs;
+}
+.footer {
+  background-color: rgb(149, 160, 108);
+}
+.footer .copy {
+  color: rgb(51, 83, 48);
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}

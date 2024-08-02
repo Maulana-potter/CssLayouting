@@ -1,0 +1,24 @@
+.main {
+  margin: auto;
+  width: 800px;
+  border: 3px solid black;
+}
+
+.kotak1 {
+  width: 500px;
+  height: 100px;
+  background: #000;
+  float: right;
+}
+.kotak2 {
+  width: 150px;
+  height: 100px;
+  background-color: antiquewhite;
+  float: left;
+}
+.kotak3 {
+  width: 150px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
